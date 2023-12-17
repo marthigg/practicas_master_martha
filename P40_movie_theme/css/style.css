@@ -1,0 +1,54 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+img{width: 100%; display: block;}
+
+.ranking {
+    background-color: #1f2038;
+    min-height: 100vh;
+}
+
+.ranking__title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    padding: 0.5em;
+}
+
+.ranking__artist-item {
+    display: flex;
+    border: 2px solid #FFFFFF;
+    margin: 0 2% 2% 2%;
+    padding: 5px;
+}
+
+.ranking__photo-container {
+    max-width: 100px;
+}
+
+.ranking__info-container {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 100%;
+    margin-left: 1%;
+    padding-left: 5px;
+}
+
+p {
+    padding-top: 2px;
+}
+
+.ranking1 {
+    border-color: #009f10;
+}
+
+.ranking2 {
+    border-color: #d8df0e;
+}
+
+.ranking3 {
+    border-color: #ef9621;
+}
+
+.ranking4 {
+    border-color: #eb5123;
+}
