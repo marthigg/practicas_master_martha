@@ -1,0 +1,44 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.block-externo{
+    background-color: rgb(223, 231, 177);
+    padding: 10px;
+}
+
+.block-borde{
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid rgb(174, 95, 248);
+    
+}
+
+.elementos-izq{
+    display: flex;
+    padding: 5px;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(174, 95, 248);
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cuadrado{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}

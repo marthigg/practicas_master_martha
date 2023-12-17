@@ -1,0 +1,18 @@
+li {
+    font-family: Helvetica;
+    list-style: none;
+}
+
+.estilos-musicales {
+    border-bottom: 2px solid black;
+ }
+
+.indie {
+    font-size: 20px;
+ }
+.rb { 
+    font-size: 28px;
+}
+.regga {
+    font-size: 35px;
+}

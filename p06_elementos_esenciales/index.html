@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Elementos esenciales</title>
+</head>
+<body>
+
+
+
+    <!-- ******************************************************
+        ELEMENTOS TIPO BLOCK 
+        ********************************************************-->
+    <section>
+        <h2 style="background: #00FFFF; padding: 30px">ELEMENTOS TIPO BLOCK</h2>
+
+
+
+        <!-- HEADINGS -->
+        <!-- Encabezados de sección jerárquicamente organizados -->
+        <h1 class="element heading">Titular H1</h1>
+        <h2 class="element heading">Titular H2</h2>
+        <h3 class="element heading">Titular H3</h3>
+        <h4 class="element heading">Titular H4</h4>
+        <h5 class="element heading">Titular H5</h5>
+        <h6 class="element heading">Titular H6</h6>
+        <!-- /HEADINGS -->
+
+
+
+        <!-- PARAGRAPH -->
+        <!-- párrafo -->
+        <p class="element paragraph">Esto es un párrafo</p>
+        <!-- /PARAGRAPH --> 
+
+
+
+        <!-- DIV -->
+        <!-- contenedor BLOCK genérico -->
+        <div class="element div">Esto es un div</div>
+        <!-- /DIV -->
+
+
+
+        <!-- SECTION -->
+        <!-- agrupador de contenido, típicamente con un heading (h1,h2,h3...) dentro -->
+        <section class="element section">Esto es un section</section>
+        <!-- /SECTION -->
+
+
+
+        <!-- MAIN -->
+        <!-- Contenido principal o dominante en un documento HTML -->
+        <!-- Sólo puede haber uno por página -->
+        <!-- Sólo puede ser hijo de body, div, form  -->
+        <main class="element main">Esto es un main</main>
+        <!-- /MAIN -->
+
+        <!-- ASIDE -->
+        <!-- Contenido secundario ligado al contenido principal, por ejemplo un sidebar -->
+        <aside class="element main"></aside>
+
+
+        <!-- HEADER -->
+        <!-- Encabezado introductorio de sección ,tabla de contenidos, logos o links  -->
+        <header class="element header">Esto es un header</header>
+        <!-- /HEADER -->
+
+
+
+        <!-- FOOTER -->
+        <!-- información corolaria aaccesoria posterior a una sección determinada -->
+        <footer class="element footer">Esto es un footer</footer>
+        <!-- /FOOTER -->
+
+
+
+        <!-- NAV -->
+        <!-- Agrupador de elementos de navegación -->
+        <nav class="element nav">Esto es un nav</nav>
+        <!-- /NAV -->
+
+
+
+        <!-- LISTA SIN ORDEN -->
+        <!-- listado de elementos sin orden -->
+        <ul class="element ul">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+        <!-- /LISTA SIN ORDEN -->
+
+
+
+        <!-- LISTA ORDENADA -->
+        <!-- listado de elementos con orden -->
+        <ol class="element ol">
+            <li>uno</li>
+            <li>dos</li>
+            <li>tres</li>
+            <li>cuatro</li>
+        </ol>
+        <!-- LISTA ORDENADA -->
+
+
+
+        <!-- FIGURE & FIGCAPTION -->
+        <!-- imagen con/sin pié de foto (figcaption) y relación con el contenido semántico del documento (texto) -->
+        <figure>
+            <img src="https://picsum.photos/200" style="width:100%">
+            <figcaption>Este es el figcaption</figcaption>
+        </figure>
+        <!-- FIGURE & FIGCAPTION -->
+
+
+
+        <!-- FORM -->
+        <!-- Formulario para obtener datos del usuario -->
+        <form action="XXXX.php" class="element form">
+            <label for="text">Esto es un formulario</label>
+            <input type="text" value>
+        </form>
+        <!-- /FORM -->
+
+
+
+        <!-- TABLE -->
+        <!-- tabla con filas y columnas -->
+        <table style="border: 1px solid red">
+            <tr style="border: 1px solid red">
+                <td style="border: 1px solid red">table cell1</td>
+                <td style="border: 1px solid red">taable cell2</td>
+            </tr style="border: 1px solid red">
+            <tr style="border: 1px solid red">
+                <td colspan="2" style="border: 1px solid red">table cell 3</td>
+            </tr>
+        </table>
+        <!-- /TABLE -->
+
+
+
+    </section>
+    <!-- /ELEMENTOS BLOCK -->
+
+
+
+
+
+
+    <!--  ************************************************
+        ELEMENTOS INLINE 
+        *************************************************-->
+    <section>
+        <h2 style="background: #00FFFF; margin-top: 60px; padding: 20px;">ELEMENTOS TIPO INLINE</h2>
+
+
+
+        <!-- SPAN -->
+        <!-- Elemento genérico de tipo INLINE -->
+        <div class="block__element">
+            <span class="element span">Esto es un span</span>
+        </div>
+        <!-- /SPAN -->
+
+
+
+        <!-- ANCHOR-->
+        <!-- link de navegación a otra página -->
+        <div class="block__element">
+            <a class="element anchor" href="https://no-bd.com"></a>
+        </div>
+        <!-- /ANCHOR -->
+
+        
+
+        <!-- IMAGE  -->
+        <!-- Imagen raster / vector -->
+        <div class="block__element">
+            <img src="https://picsum.photos/400" alt="foto" title="foto">
+        </div>
+        <!-- /IMAGE -->
+
+
+
+        <!-- AUDIO & VIDEO WITH  VISIBLE CONTROLS -->
+        <!-- Etiquetas multimedia para audio y video -->
+        <div class="block__element">
+            <video width="320" height="240" controls muted>
+                <source src="xxx.mp4" type="video/mp4">
+                <source src="xxx.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="block__element">
+            <audio controls>
+                <source src="xxx.ogg" type="audio/ogg">
+                <source src="xxx.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <!-- /AUDIO & VIDEO WITH  VISIBLE CONTROLS -->
+
+
+
+        <!-- LABEL & INPUT -->
+        <!-- Campos individuales de formulario para distintos tipos de datos (texto, número, etc...) -->
+        <div class="block__element">
+            <label class="element label" for="input">
+                Esto es un label
+            </label>
+        </div>
+
+        <div class="block__element">
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" placeholder>
+            <input type="range" min="0" max="500">
+            <input type="textarea" value="">
+            <input type="submit" value="">
+            <input class="button" type="button" value="Add to favorites">
+            <input type="checkbox" id="scales" name="scales" checked>
+        </div>
+
+        <!-- /LABEL & INPUT -->
+
+
+
+        <!-- SELECT -->
+        <!-- Selector con opciones predefinidas para que el usuario elija -->
+        <div class="block__element">
+            <select name="select" id="select">
+                <option value="option1">option uno</option>
+                <option value="option1">option dos</option>
+                <option value="option1">option tre</option>
+                <option value="option1">option cuatro</option>
+                <option value="option1">option cinco</option>
+                <option value="option1">option seis</option>
+            </select>
+        </div>
+        <!-- SELECT -->
+
+
+
+        <!-- BUTTON -->
+        <!-- botón de interacción para el usuario -->
+        <div class="block__element">
+            <button>esto es unb botón</button>
+        </div>
+        <!-- /BUTTON -->
+
+
+
+        <!-- IFRAME -->
+        <!-- Cuadro para incrustar contenido externo -->
+        <div class="inline__element">
+            <iframe src="http://mickx.com" frameborder="3" width="100%" height="600px"></iframe>
+        </div>
+        <!-- /IFRAME -->
+    </section>
+    <!-- /ELEMENTOS INLINE -->
+
+
+
+</body>
+</html>

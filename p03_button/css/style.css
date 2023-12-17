@@ -1,0 +1,21 @@
+body {
+    background-color: #83d3bb;
+    margin: 100px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 40px;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    background-color: #1b7d60;
+    box-shadow: 3px 3px #093d2e;
+
+}

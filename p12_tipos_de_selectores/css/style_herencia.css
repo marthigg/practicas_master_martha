@@ -1,0 +1,19 @@
+ body {
+    font-size: 40px;
+}
+
+#link-id {
+    color: #FF0000FF;
+}
+
+.div__abuelo a {
+    color: #00FF00;
+}
+
+.p__padre a {
+    color: #ff00bb;
+}
+
+.div__abuelo a {
+    color: #00ffff;
+}

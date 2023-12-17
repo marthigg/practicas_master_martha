@@ -1,0 +1,73 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+svg {
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.woman {
+    position: relative;
+    width: 60%;
+    max-width: 600px;
+    height: auto;   
+}
+
+.chakra {
+    position: absolute;
+    width: 4%;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+.chakra.chakra--purple {
+    top: -32%;
+    z-index: 1;
+}
+
+.chakra.chakra--blue {
+    top: -26%;
+    z-index: 2;
+}
+
+.chakra.chakra--aqua {
+    top: -21%;
+    z-index: 3;
+}
+
+.chakra.chakra--green {
+    top: -15%;
+    z-index: 4;
+}
+
+.chakra.chakra--yellow {
+    top: -11%;
+    z-index: 5;
+}
+
+.chakra.chakra--orange {
+    top: -7%;
+    z-index: 6;
+}
+
+.chakra.chakra--red {
+    top: -1%;
+    z-index: 7;
+}
+
+@keyframes rotateWoman {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.aura {
+    transform-origin: center;
+    animation: 10s linear rotateWoman infinite;
+}
+

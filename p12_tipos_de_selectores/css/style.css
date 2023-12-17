@@ -1,0 +1,44 @@
+
+.parrafo-alternativo {
+    color: #8a2be2;
+}
+
+#spanElement {
+    background-color: rgba(20, 20, 169, 0.5);
+}
+
+span[title] {
+    color: rgba(230, 0, 0, 0.5);
+}
+
+.section-1 * {
+    color: #e22b93;
+}
+
+.parrafo-alternativo, .con-background {
+    background-color: #e22b93;
+}
+
+p[title] {
+    color: #e2cd2b;
+}
+
+.section-3 p:first-child {
+    color: rgb(230, 0, 0);
+}
+
+.section-3 p:nth-child(2) {
+    color: #2a9624;
+}
+
+.section-3 p:nth-child(3) {
+    color: #242d96;
+}
+
+.section-2 p:not(:first-of-type) {
+    font-size: 21px;
+}
+
+p::first-letter {
+    color: #e60000;
+}
