@@ -1,0 +1,29 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.dado6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 82, 21)
+}
+
+.dado6__shape {
+    background-color: #FFFFFF;
+    flex-basis: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 7%;
+}
+
+.dado6__point {
+    background-color: #000000;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+}

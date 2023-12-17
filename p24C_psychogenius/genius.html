@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/genius.css">
+    <title>Practica Psychogenius</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid__item grid__item--c1"></div>
+        <div class="grid__item grid__item--c2"></div>
+        <div class="grid__item grid__item--c3"></div>
+        <div class="grid__item grid__item--c4"></div>
+        <div class="grid__item grid__item--c5">
+            G
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c6"></div>
+        <div class="grid__item grid__item--c7"></div>
+        <div class="grid__item grid__item--c8"></div>
+        <div class="grid__item grid__item--c9"></div>
+        <div class="grid__item grid__item--c10"></div>
+        <div class="grid__item grid__item--c11"></div>
+        <div class="grid__item grid__item--c12"></div>
+        <div class="grid__item grid__item--c13"></div>
+        <div class="grid__item grid__item--c14">
+            E
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c15"></div>
+        <div class="grid__item grid__item--c16"></div>
+        <div class="grid__item grid__item--c17"></div>
+        <div class="grid__item grid__item--c18"></div>
+        <div class="grid__item grid__item--c19"></div>
+        <div class="grid__item grid__item--c20"></div>
+        <div class="grid__item grid__item--c21"></div>
+        <div class="grid__item grid__item--c22"></div>
+        <div class="grid__item grid__item--c23">
+            N
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c24"></div>
+        <div class="grid__item grid__item--c25"></div>
+        <div class="grid__item grid__item--c26"></div>
+        <div class="grid__item grid__item--c27"></div>
+        <div class="grid__item grid__item--c28"></div>
+        <div class="grid__item grid__item--c29"></div>
+        <div class="grid__item grid__item--c30"></div>
+        <div class="grid__item grid__item--c31"></div>
+        <div class="grid__item grid__item--c32">
+            I
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c33"></div>
+        <div class="grid__item grid__item--c34"></div>
+        <div class="grid__item grid__item--c35"></div>
+        <div class="grid__item grid__item--c36"></div>
+        <div class="grid__item grid__item--c37"></div>
+        <div class="grid__item grid__item--c38"></div>
+        <div class="grid__item grid__item--c39"></div>
+        <div class="grid__item grid__item--c40"></div>
+        <div class="grid__item grid__item--c41">
+            U
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c42"></div>
+        <div class="grid__item grid__item--c43"></div>
+        <div class="grid__item grid__item--c44"></div>
+        <div class="grid__item grid__item--c45"></div>
+        <div class="grid__item grid__item--c46"></div>
+        <div class="grid__item grid__item--c47"></div>
+        <div class="grid__item grid__item--c48"></div>
+        <div class="grid__item grid__item--c49"></div>
+        <div class="grid__item grid__item--c50">
+            S
+            <div class="photo"></div>
+        </div>
+        <div class="grid__item grid__item--c51"></div>
+        <div class="grid__item grid__item--c52"></div>
+        <div class="grid__item grid__item--c53"></div>
+        <div class="grid__item grid__item--c54"></div>
+
+    </div>
+
+
+    <script>
+        const gridItems = document.querySelectorAll('.grid__item');
+        gridItems.forEach((gridItem,index) => {
+            const color = 'hsl('+ Math.floor(280 -(index*(280/gridItems.length)))+', 100%, 50%)';
+            gridItem.style.background = color;
+        });   
+    </script>
+    
+</body>
+</html>

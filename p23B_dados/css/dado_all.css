@@ -1,0 +1,23 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+    background-color: rgb(24, 82, 21);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.top__dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom__dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,63 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.solidaridad {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.solidaridad__yo, .solidaridad__tu {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solidaridad__desktop {
+    font-size: 8rem;
+}
+
+.solidaridad__yo {
+    background-color: #000;
+    color: #fff;
+}
+
+.solidaridad__responsive {
+    display: none;
+}
+
+.solidaridad__responsive--left {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 800;
+    padding: 40px;
+}
+
+.solidaridad__responsive--right {
+    font-size: 3rem;
+    padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .solidaridad {
+        flex-direction: column;
+    }
+
+    .solidaridad__desktop {
+        display: none;
+    }
+
+    .solidaridad__responsive {
+        display: flex;
+    }
+
+    .solidaridad__yo {
+        background-color: #ffffff;
+        color: #17696c;
+    }
+
+    .solidaridad__tu {
+        color: #ffffff;
+        background-color: #17696c;
+    }
+}

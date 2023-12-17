@@ -1,0 +1,36 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.dado2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 82, 21)
+}
+
+.dado2__shape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+.dado2__point1 {
+    align-self: flex-start;
+    background-color: #000000;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+}
+
+.dado2__point2 {
+    align-self: flex-end;
+    background-color: #000000;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+}
